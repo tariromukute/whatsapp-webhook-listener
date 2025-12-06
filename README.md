@@ -4,16 +4,18 @@
 
 ```bash
 export FLASK_APP=main.py
-python -m flask run
+python3 -m flask run
 ```
 
 Run ngrok to expose
 
 ```bash
-ngrok http --region=eu --hostname=tariroapps.eu.ngrok.io 5000
+ngrok http 5000
 ```
 
-```
+```bash
+# URL
+https://xxxxx.app/webhook
 # Verify token
 eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjZZNEc4VUxVM0RKZ1gwb3dVT2N
 ```
